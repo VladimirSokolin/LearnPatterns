@@ -7,9 +7,12 @@ class SimulateDuck{
 	}
 	
 	void simulate(AbstractDuckFactory duckFactory){
-		Quackable redHeadDuck = new CounterQuack(new RedHeadDuck());
+<<<<<<< HEAD
+=======
+		Quackable redHeadDuck = duckFactory.createRedHeadDuck();
 		Quackable whiteDuck = duckFactory.createWhiteDuck();
-		Quackable rubberDuck = new CounterQuack(new RubberDuck());
+		Quackable rubberDuck = duckFactory.createRubberDuck();
+>>>>>>> origin/main
 		Quackable hunterDuck = duckFactory.createHunterDuck();
 		Quackable goose = new GooseAdapter(new WhiteGoose());
 		

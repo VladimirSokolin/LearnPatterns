@@ -1,4 +1,9 @@
 public abstract class AbstractDuckFactory {
-	public abstract Quackable createWhiteDuck();
+<<<<<<< HEAD
+=======
 	public abstract Quackable createHunterDuck();
+	public abstract Quackable createRedHeadDuck();
+	public abstract Quackable createWhiteDuck();
+	public abstract Quackable createRubberDuck();
+>>>>>>> origin/main
 }
