@@ -1,4 +1,5 @@
 public class CountingDuckFactory extends AbstractDuckFactory {
+	
 	public Quackable createHunterDuck(){
 		return new CounterQuack ( new HunterDuck());
 	}
@@ -15,3 +16,4 @@ public class CountingDuckFactory extends AbstractDuckFactory {
 		return new CounterQuack ( new RubberDuck());
 	}
 }
+
